@@ -1,9 +1,8 @@
-.material-symbols-outlined {
-  position: absolute;
-  cursor: pointer;
-  color: #6c757d; 
-  padding-left: 23%;
-  margin-top: -30px;
+.fa {
+    position: absolute;
+    color: grey;
+    margin-left: -29px;
+    padding-top: 13px;
 }
 .or-container{
     align-items: center;
@@ -22,12 +21,11 @@
     text-align: center;
 }
 .text-muted  {
-    padding-left: 10px;
+    padding-right: 29%;
 }
 .check{
     text-decoration: none;
     color: black;
-    padding-left: 35%;  
 }
 .check1{
     text-decoration: none;
@@ -38,4 +36,10 @@ h1,p{
 }
 #loginform{
     padding-left: 10px;
+}
+ 
+@media (min-width:992px){
+    #loginform {
+        max-width: 570px;
+    }
 }
